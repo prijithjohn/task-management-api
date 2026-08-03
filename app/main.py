@@ -37,3 +37,10 @@ def startup_event() -> None:
 @app.get("/health")
 def health_check() -> dict[str, str]:
     return {"status": "ok"}
+
+@app.get("/")
+def root():
+    return {
+        "message": "Task Management API v1.1",
+        "status": "running"
+    }
