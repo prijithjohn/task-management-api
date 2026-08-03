@@ -36,7 +36,7 @@ jobs:
       SECRET_KEY: change-me-in-production
       ALGORITHM: HS256
       ACCESS_TOKEN_EXPIRE_MINUTES: 30
-      ENVIRONMENT: test
+      ENVIRONMENT: testing
       LOG_LEVEL: INFO
 
     steps:
